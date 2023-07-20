@@ -1,10 +1,5 @@
 
 
-
-
-
-
-
 var salary = null;
 console.log(typeof salary);
 salary = 40000;
