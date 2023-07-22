@@ -4,7 +4,7 @@
 // var lengthGreet = greet.length;
 // console.log('Total length of string is:',lengthGreet);  ///when used parameter the () this are not used 
 
-var greet = "Good Morning Virat Dude";
+var greet = "Good Morning";
 var lengthGreet= greet.length;
 console.log(greet,'Length of String is:', lengthGreet);
 
@@ -50,15 +50,15 @@ console.log(`End spaces is : ${endSpaces}`);
 
 console.log('----------------------------------------');
 
-var greet = "Good Morning";
-greet.replace(' ','-');
+var greet = "Good Morning Virat Dude";
+var result = greet.replace(' ','-');
 console.log(`After replace ' 'with'-' string is : ${result}`);
 var result = greet.replace('o','O');
 console.log(`Result String is : ${result}`);
 
 console.log('----------------------------------------------');
-var result =  greet.slice(5,12);
-console.log(`Slice from index  5 till 12 is : ${result}`);
+var result = greet.slice(5,12);
+console.log(`Slice from index 5 till 12 is : ${result}`);
 
 
 
