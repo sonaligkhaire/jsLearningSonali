@@ -33,3 +33,14 @@ console.log(result);
 
 }
 tcs();
+
+
+
+
+// var interviewEligibility = function (gradScore, hscScore, sscScore, candidateName){
+//      var result = gradScore >= 70  || hscScore >= 80 // true || false => true , true || false =>true
+//      ? `Congrate {candidateName} you are eligible for TCS interview.`
+//     : `Unfortunately you are not eligible for interview`
+//     console.log(result);
+// }
+// interviewEligibility(80, 86, 90, "Sona");
