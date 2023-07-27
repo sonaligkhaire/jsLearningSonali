@@ -6,6 +6,7 @@ function greaterNumber( num1 , num2){
     var greater = num1>num2 ? 10 :-10 ;
     console.log(`------------------Step 1:- two args and no return value-----------------------------`);
     console.log(`The greater no between 10 and -10 is:-`, greater);
+    //console.log(`The greater no between ${num1} and ${num2} is:- ${greater}`);
     var num1 = 800;
     var num2 = 899;
     var greater = num1>num2 ? 800 : 899 ;
