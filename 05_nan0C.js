@@ -22,7 +22,7 @@ console.log(`------------------------------------------------------------------`
 
 
 result = 1==[1];
-console.log(`(5)The [1] is called array and it returns 1 value & 1 == 1 is true then result is:`,result); 
+console.log(`(5)The [1] is called array and it returns 1(index) value & 1 == 1 is true then result is:`,result); 
 console.log(`------------------------------------------------------------------`);
 
 
