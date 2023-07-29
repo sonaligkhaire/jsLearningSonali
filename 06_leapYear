@@ -1,0 +1,25 @@
+
+
+var leapYear = function(year){
+    var yearValue = +year
+    if (isNaN(yearValue)) {
+        console.log(`This ${year} is invalid Year....`); 
+    } else {
+        // if block to handle all valid scenarios
+    if (year%4==0) {
+        console.log(`${year}, is a Leap Year....`);
+    } else {
+        console.log(`${year}, is not Leap Year. It is common Year.....`);
+    }
+}
+}
+leapYear(2020);
+leapYear(1999);
+leapYear(1600);
+leapYear(2022);
+leapYear(1945);
+leapYear(null);
+leapYear("Twenty Twenty");
+leapYear(undefined);
+leapYear(NaN);
+leapYear(1750);
