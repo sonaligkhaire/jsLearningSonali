@@ -1,0 +1,26 @@
+
+<!-- in local storage add the data -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Local Storage</title>
+</head>
+<body>
+   <h2>Web Local Storage</h2> 
+   <script>
+    console.log("Local Storage");
+    window.localStorage.setItem("name","Sonali Gawade");
+    window.localStorage.setItem("city","Khed");
+    window.localStorage.setItem("pinCode", "410501");
+    window.localStorage.setItem("district", "Pune");
+
+    let city = window.localStorage.removeItem(city);
+    console.log(city);
+    console.log("Local Storage");
+    
+   </script>
+</body>
+</html>
