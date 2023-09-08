@@ -61,7 +61,7 @@ var resultValue = addThreeValues("Hello","Good", "Morning");
 console.log('Result is',resultValue);
 
 
-function BankDetails(bankName,accountNum,location,pinCode) {
+function BankDetails(val1,val2,val3,val4) {                                                 //(bankName,accountNum,location,pinCode)
     val1="ICICI Bank";
     val2=566866589754;
     val3="PUNE";
@@ -75,6 +75,7 @@ function BankDetails(bankName,accountNum,location,pinCode) {
     val4=400008;
      
     console.log('Bank Name is:-',val1,   'Account No is:-', val2,   'Location:-', val3,   'Pincode:-',val4);
+    //OR//console.log(`Bank Name is :${val1} , Account No : ${val2} , Location : ${val3} , Pincode : ${val4}`);
 
     val1="HDFC Bank";
     val2=876546598761;
@@ -84,3 +85,13 @@ function BankDetails(bankName,accountNum,location,pinCode) {
     console.log('Bank Name is:-',val1,   'Account No is:-', val2,  'Location:-', val3,   'Pincode:-',val4);
 }
 BankDetails();
+
+  
+//OR//
+// console.log(`---------------------------------------------------------------------------------------------`);
+// function BankDetail(bankName,accountNum,location,pinCode) {
+//     console.log(`Bank Name :${bankName} , Account No : ${accountNum} , Location : ${location} , Pincode : ${pinCode}`);
+// }
+// BankDetail("ICICI Bank" ,566866589754 ,"PUNE", 410501 );
+// BankDetail("Axis Bank", 787656798764, "MUMBAI", 400008);
+// BankDetail("HDFC Bank" , 876546598761, "THANE", 400605);
