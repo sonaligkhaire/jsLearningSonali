@@ -27,11 +27,13 @@ console.log(`------------------------print All employee names & log it----------
  });
  console.log(employeeNames);
 
+
  console.log(`-----------------Print list of the departments & log it---------------------`);
   const employeeDepartment = arrayEmployees.map( (emp) =>{
    return  emp.emp_dept;
   });
   console.log(employeeDepartment);
+  
 
   console.log(`-----------Print list of employee id's & log it-------------------------`);
   const employeeId = arrayEmployees.map( (currentValue) => {
